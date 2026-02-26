@@ -31,7 +31,7 @@ if __name__ == "__main__":
     # We will monitor the current folder (represented by ".")
     path_to_watch = "."
     
-    print(f"🛡️  Blue Team FIM started. Monitoring directory: {os.path.abspath(path_to_watch)}")
+    print(f"Blue Team FIM started. Monitoring directory: {os.path.abspath(path_to_watch)}")
     print("Waiting for suspicious activity... (Press Ctrl+C to stop)")
 
     # Set up the watchdog observer
